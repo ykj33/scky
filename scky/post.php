@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "dbsrjswnd";
-$dbname = "customer";
+$username = "dnsrjswnd";
+$password = "rjswnd9870!#";
+$dbname = "dnsrjswnd";
 
  
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
@@ -13,7 +13,7 @@ $dbname = "customer";
     // use exec() because no results are returned
     $conn->exec($sql);
 
-header("Location: http://127.0.0.1/[ykj]homepage_20190404.html"); 
+header("Location: http://dnsrjswnd.dothome.co.kr/"); 
     
 
 
